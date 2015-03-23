@@ -54,6 +54,7 @@ set ts=4 sts=4 sw=4 et
 let g:xml_syntax_folding = 1
 au FileType xml setlocal foldmethod=syntax
 au FileType xsd setlocal foldmethod=syntax
+au FileType svg setlocal foldmethod=syntax
 
 " Javascript configurations
 au FileType javascript setlocal makeprg=jslint\ %
