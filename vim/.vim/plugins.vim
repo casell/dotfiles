@@ -1,6 +1,9 @@
 " Colorscheme
 VAMActivate Distinguished
 
+" Sensible defaults
+VAMActivate sensible
+
 " Statusline
 VAMActivate vim-airline
 
@@ -12,12 +15,6 @@ VAMActivate editorconfig-vim
 
 " Python related plugin
 VAMActivate Python-mode-klen
-
-" Sensible defaults
-VAMActivate sensible
-
-" Multiple cursors selection in visualmode
-VAMActivate vim-multiple-cursors
 
 " Indent guide
 VAMActivate Indent_Guides
