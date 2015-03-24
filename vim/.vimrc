@@ -1,5 +1,6 @@
 " vim-addon-manager configuration
 set nocompatible | filetype indent plugin on | syn on
+set nomore
 
 fun! SetupVAM()
     let c = get(g:, 'vim_addon_manager', {})
@@ -72,6 +73,12 @@ augroup END
 VAMActivate Gundo
 nnoremap <silent> <leader>tu :GundoToggle<CR>
 
+" SVG
+VAMActivate svg
+
+" HTML5
+VAMActivate html5
+
 " Enable persistent undo.
 set undofile
 set undodir=~/.vim/undo
@@ -89,7 +96,7 @@ set ts=4 sts=4 sw=4 et
 let g:xml_syntax_folding = 1
 au FileType xml setlocal foldmethod=syntax
 au FileType xsd setlocal foldmethod=syntax
-au FileType svg setlocal foldmethod=syntax
+au FileType svg setlocal filetype=xml syntax=svg
 
 " Javascript configurations
 au FileType javascript setlocal makeprg=jslint\ %
