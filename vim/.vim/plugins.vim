@@ -16,6 +16,9 @@ VAMActivate editorconfig-vim
 " Python related plugin
 VAMActivate Python-mode-klen
 
+" Syntastic
+VAMActivate Syntastic
+
 " Indent guide
 VAMActivate Indent_Guides
 
