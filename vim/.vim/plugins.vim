@@ -14,7 +14,7 @@ VAMActivate csv
 VAMActivate editorconfig-vim
 
 " Python related plugin
-VAMActivate Python-mode-klen
+" VAMActivate Python-mode-klen
 
 " Syntastic
 VAMActivate Syntastic
@@ -30,3 +30,6 @@ VAMActivate svg
 
 " HTML5
 VAMActivate html5
+
+" YouCompleteMe
+VAMActivate YouCompleteMe
