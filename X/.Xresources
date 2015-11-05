@@ -1,3 +1,5 @@
 xterm*termName:xterm-256color
 xterm*background:black
-xterm*foreground:green
+xterm*foreground:gray
+
+*VT100*translations: #override Shift <Btn1Up>: exec-formatted("chromium '%t'", PRIMARY)
