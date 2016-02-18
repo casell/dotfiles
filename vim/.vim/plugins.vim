@@ -1,35 +1,39 @@
+call plug#begin(expand('$HOME', 1) . '/.vim/vim-addons')
+
 " Colorscheme
-VAMActivate Distinguished
+Plug 'Lokaltog/vim-distinguished', { 'branch': 'develop' }
 
 " Sensible defaults
-VAMActivate sensible
+Plug 'tpope/vim-sensible'
 
 " Statusline
-VAMActivate vim-airline
+Plug 'bling/vim-airline'
 
 " csv (shows columns)
-VAMActivate csv
+Plug 'chrisbra/csv.vim'
 
 " Editorconfig conventions loader
-VAMActivate editorconfig-vim
+Plug 'editorconfig/editorconfig-vim'
 
 " Python related plugin
-" VAMActivate Python-mode-klen
+" Plug 'klen/python-mode', {'branch: 'develop'}
 
 " Syntastic
-VAMActivate Syntastic
+Plug 'scrooloose/syntastic'
 
 " Indent guide
-VAMActivate Indent_Guides
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Undo Tree
-VAMActivate Gundo
+Plug 'sjl/gundo.vim'
 
 " SVG
-VAMActivate svg
+Plug 'vim-scripts/svg.vim'
 
 " HTML5
-VAMActivate html5
+Plug 'othree/html5.vim'
 
 " YouCompleteMe
-VAMActivate YouCompleteMe
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+
+call plug#end()
