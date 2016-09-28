@@ -1,5 +1,9 @@
 xterm*termName:xterm-256color
 xterm*background:black
 xterm*foreground:gray
+xterm*on2Clicks:  regex [^/@ \n]+
+xterm*on3Clicks:  regex [^ \n]+
+xterm*on4Clicks:  regex [^#$]+
+xterm*on5Clicks:  line
 
 *VT100*translations: #override Shift <Btn1Up>: exec-formatted("chromium '%t'", PRIMARY)
