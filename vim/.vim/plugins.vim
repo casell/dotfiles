@@ -33,7 +33,13 @@ Plug 'vim-scripts/svg.vim'
 " HTML5
 Plug 'othree/html5.vim'
 
+Plug 'Quramy/tsuquyomi'
+
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+
 " YouCompleteMe
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
