@@ -42,4 +42,6 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 Plug 'leafgarland/typescript-vim'
 
+Plug 'rykka/riv.vim'
+
 call plug#end()
