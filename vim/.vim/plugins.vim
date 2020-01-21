@@ -44,4 +44,8 @@ Plug 'leafgarland/typescript-vim'
 
 Plug 'rykka/riv.vim'
 
+Plug 'godlygeek/tabular'
+
+Plug 'plasticboy/vim-markdown'
+
 call plug#end()
