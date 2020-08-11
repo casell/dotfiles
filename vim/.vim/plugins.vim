@@ -38,14 +38,18 @@ Plug 'Quramy/tsuquyomi'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 " YouCompleteMe
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --go-completer --java-completer' }
 
 Plug 'leafgarland/typescript-vim'
+
+Plug '/home/rcaselli/vimplugins/todocheck'
 
 Plug 'rykka/riv.vim'
 
 Plug 'godlygeek/tabular'
 
 Plug 'plasticboy/vim-markdown'
+
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
