@@ -33,14 +33,10 @@ Plug 'vim-scripts/svg.vim'
 " HTML5
 Plug 'othree/html5.vim'
 
-Plug 'Quramy/tsuquyomi'
-
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 " YouCompleteMe
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --go-completer --java-completer' }
-
-Plug 'leafgarland/typescript-vim'
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer --go-completer --java-completer' }
 
 Plug '/home/rcaselli/vimplugins/todocheck'
 
