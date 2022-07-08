@@ -1,8 +1,6 @@
 " Indentation default
 set ts=4 sts=4 sw=4 et
 
-syntax on
-
 " Enable line numbers.
 set number
 
@@ -14,7 +12,7 @@ set splitbelow
 set splitright
 
 " Enable mouse. Great for resizing windows and keeping co-workers sane.
-set mouse=a
+" set mouse=a
 
 " Disable swap files.
 set noswapfile
