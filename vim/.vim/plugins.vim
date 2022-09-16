@@ -45,8 +45,6 @@ Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer --go-comp
 
 Plug '/home/rcaselli/vimplugins/todocheck'
 
-Plug 'rykka/riv.vim'
-
 Plug 'godlygeek/tabular'
 
 Plug 'plasticboy/vim-markdown'
