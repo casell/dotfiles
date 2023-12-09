@@ -51,4 +51,6 @@ Plug 'plasticboy/vim-markdown'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
+
 call plug#end()
