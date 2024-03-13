@@ -43,7 +43,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 " YouCompleteMe
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clang-completer --go-completer --java-completer' }
 
-Plug '/home/rcaselli/vimplugins/todocheck'
+" Plug '/home/rcaselli/vimplugins/todocheck'
 
 Plug 'godlygeek/tabular'
 
@@ -51,6 +51,6 @@ Plug 'plasticboy/vim-markdown'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
-Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
+" Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 
 call plug#end()
